@@ -6,8 +6,12 @@ authors = ["Zakhar Kogan <m1706924@edu.misis.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
+matplotlib = "^3.6.2"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.17.1"
 
 [build-system]
 requires = ["poetry-core"]
